@@ -40,3 +40,12 @@ gem 'spring',        group: :development
 
 # User authentication
 gem 'devise', '~> 3.2.4'
+
+# Uploading
+gem 'carrierwave', '~> 0.10.0'
+
+# slug creation
+gem 'friendly_id', '~> 5.0.4'
+
+# bootstrap
+gem 'anjlab-bootstrap-rails', require: 'bootstrap_rails', github: 'anjlab/bootstrap-rails', branch: '3.0.0'
