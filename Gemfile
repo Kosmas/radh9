@@ -48,4 +48,4 @@ gem 'carrierwave', '~> 0.10.0'
 gem 'friendly_id', '~> 5.0.4'
 
 # bootstrap
-gem 'anjlab-bootstrap-rails', require: 'bootstrap_rails', github: 'anjlab/bootstrap-rails', branch: '3.0.0'
+gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails'
