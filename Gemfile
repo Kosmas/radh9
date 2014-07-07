@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.2'
+gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -45,7 +45,7 @@ gem 'devise', '~> 3.2.4'
 gem 'carrierwave', '~> 0.10.0'
 
 # slug creation
-gem 'friendly_id', '~> 5.0.4'
+#gem 'friendly_id', '~> 5.0.4'
 
 # bootstrap
 gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails'
