@@ -17,7 +17,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 3.1.2'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks', '~> 2.3.0'
+gem 'turbolinks', '~> 2.4.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.1.3'
@@ -40,7 +40,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # User authentication
-gem 'devise', '~> 3.3.0'
+gem 'devise', '~> 3.4.0'
 
 # Uploading
 gem 'carrierwave', '~> 0.10.0'
