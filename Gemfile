@@ -53,4 +53,5 @@ gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails'
 
 # vidoe processing
 gem "streamio-ffmpeg"
-gem 'carrierwave-video', :github => 'saurabhbhatia/carrierwave-video'
+#gem 'carrierwave-video', :github => 'saurabhbhatia/carrierwave-video'
+gem 'carrierwave-video', '~> 0.5.6'

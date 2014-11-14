@@ -1,11 +1,3 @@
-GIT
-  remote: git://github.com/saurabhbhatia/carrierwave-video.git
-  revision: 19b0975dbf8177a3deed5499708b189bbc126b09
-  specs:
-    carrierwave-video (0.5.4)
-      carrierwave
-      streamio-ffmpeg
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,6 +38,9 @@ GEM
       activesupport (>= 3.2.0)
       json (>= 1.7)
       mime-types (>= 1.16)
+    carrierwave-video (0.5.6)
+      carrierwave
+      streamio-ffmpeg
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -140,7 +135,7 @@ PLATFORMS
 DEPENDENCIES
   anjlab-bootstrap-rails
   carrierwave (~> 0.10.0)
-  carrierwave-video!
+  carrierwave-video (~> 0.5.6)
   coffee-rails (~> 4.1.0)
   devise (~> 3.4.1)
   jbuilder (~> 2.2.4)
