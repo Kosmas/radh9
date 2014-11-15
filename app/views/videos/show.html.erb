@@ -10,5 +10,20 @@
   <%= @video.description %>
 </p>
 
+<div class="row">
+  <div class="col-lg-8">
+    <h3><%= @video.title %></h3>
+    <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264" data-setup="{}">
+      <source src="<%= @video.media.url(:mp4) %>" type='video/mp4' />
+    </video>
+    <br/>
+    <p><%= @video.description %></p>
+  </div>
+</div>
+
 <%= link_to 'Edit', edit_video_path(@video) %> |
 <%= link_to 'Back', videos_path %>
+
+<script>
+  videojs.options.flash.swf = "#{Rails.root}/video-js.swf";
+</script>
