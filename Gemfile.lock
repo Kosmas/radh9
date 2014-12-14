@@ -119,7 +119,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
-    turbolinks (2.5.2)
+    turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -146,5 +146,5 @@ DEPENDENCIES
   spring (~> 1.2.0)
   sqlite3 (~> 1.3.10)
   streamio-ffmpeg
-  turbolinks (~> 2.5.2)
+  turbolinks (~> 2.5.3)
   uglifier (~> 2.5.3)
