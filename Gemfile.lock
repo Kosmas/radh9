@@ -163,7 +163,7 @@ DEPENDENCIES
   carrierwave-video (~> 0.5.6)
   coffee-rails (~> 4.1.0)
   devise (~> 3.4.1)
-  jbuilder (~> 2.2.5)
+  jbuilder (~> 2.2.6)
   jquery-rails (~> 3.1.2)
   rails (= 4.2.0)
   sass-rails (~> 5.0.0)
