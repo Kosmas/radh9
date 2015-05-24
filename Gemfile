@@ -40,7 +40,7 @@ gem 'spring', '~> 1.3.6',       group: :development
 # gem 'debugger', group: [:development, :test]
 
 # User authentication
-gem 'devise', '~> 3.4.1'
+gem 'devise', '~> 3.5.0'
 
 # Uploading
 gem 'carrierwave', '~> 0.10.0'
