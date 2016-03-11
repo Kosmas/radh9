@@ -165,7 +165,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.1)
   devise (~> 3.5.6)
   jbuilder (~> 2.4.1)
-  jquery-rails (~> 4.1.0)
+  jquery-rails (~> 4.1.1)
   rails (= 4.2.6)
   sass-rails (~> 5.0.4)
   sdoc (~> 0.4.1)
