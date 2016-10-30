@@ -17,3 +17,7 @@
 
 # Ignore uploaded files
 /public/uploads
+
+# Ignore rvm files
+.ruby-version
+.ruby-gemset
