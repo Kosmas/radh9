@@ -43,7 +43,7 @@ gem 'spring', '~> 2.0.2',       group: :development
 gem 'devise', '~> 4.3.0'
 
 # Uploading
-gem 'carrierwave', '~> 1.1.0'
+gem 'carrierwave', '~> 1.2.1'
 
 # slug creation
 #gem 'friendly_id', '~> 5.0.4'
