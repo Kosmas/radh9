@@ -48,7 +48,7 @@ GEM
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
-    carrierwave-video (0.5.6)
+    carrierwave-video (0.6.0)
       carrierwave
       streamio-ffmpeg
     coffee-rails (4.2.2)
@@ -71,7 +71,7 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
-    i18n (0.9.3)
+    i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -90,8 +90,8 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.3.0)
-    minitest (5.11.1)
-    multi_json (1.12.1)
+    minitest (5.11.3)
+    multi_json (1.13.1)
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
@@ -161,7 +161,7 @@ GEM
     turbolinks (5.1.0)
       turbolinks-source (~> 5.1)
     turbolinks-source (5.1.0)
-    tzinfo (1.2.4)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (4.1.6)
       execjs (>= 0.3.0, < 3)
@@ -177,7 +177,7 @@ PLATFORMS
 DEPENDENCIES
   anjlab-bootstrap-rails
   carrierwave (~> 1.2.2)
-  carrierwave-video (~> 0.5.6)
+  carrierwave-video (~> 0.6.0)
   coffee-rails (~> 4.2.2)
   devise (~> 4.4.1)
   jbuilder (~> 2.7.0)
